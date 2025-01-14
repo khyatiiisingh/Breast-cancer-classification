@@ -94,8 +94,8 @@ Logistic Regression: Accuracy = 99.12%
 
 Random forest :Accuracy = 96.49%
 
-How to Run the Code
+How to Run the Code:
 
-Run the Jupyter Notebook: Open the Jupyter Notebook BREAST CANCER CLASSIFICATION.ipynb:
+Run the Jupyter Notebook: Open the Jupyter Notebook BREAST CANCER CLASSIFICATION.ipynb
 
 
