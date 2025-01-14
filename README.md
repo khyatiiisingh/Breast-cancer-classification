@@ -8,7 +8,9 @@ Dataset Information
 The dataset used in this project is the Breast Cancer Wisconsin dataset (available from UCI Machine Learning Repository). It contains the following:
 
 Number of instances: 569
+
 Number of features: 30
+
 Target classes: Malignant (1) and Benign (0)
 
 Features of the Dataset
@@ -87,10 +89,13 @@ Random Forest Classifier: An ensemble method using decision trees to improve pre
 These models are trained on the breast cancer dataset and evaluated using performance metrics such as accuracy, precision, recall, and F1 score.
 
 Results
+
 Logistic Regression: Accuracy = 99.12%
+
 Random forest :Accuracy = 96.49%
 
 How to Run the Code
+
 Run the Jupyter Notebook: Open the Jupyter Notebook BREAST CANCER CLASSIFICATION.ipynb:
 
 
