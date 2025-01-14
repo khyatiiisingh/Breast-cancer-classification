@@ -14,10 +14,15 @@ Target classes: Malignant (1) and Benign (0)
 Features of the Dataset
 Each sample in the dataset corresponds to an image, with features describing characteristics of the cell nuclei extracted from that image. The features are categorized as follows:
 Radius: The mean distance from the center to the points on the perimeter.
+
 Texture: Standard deviation of gray-scale intensity values.
+
 Perimeter: Total length around the boundary of the cell nucleus.
+
 Area: Size of the cell nucleus.
+
 Smoothness: Variation in radius lengths (how smooth the boundary is).
+
 Compactness: Calculated as 
 Perimeter
 2
@@ -28,15 +33,22 @@ Area
 Perimeter 
 2
  /Area−1.0 (indicating how compact the nucleus is).
+ 
 Concavity: The severity of inward curves or concave portions of the boundary.
+
 Concave Points: The number of distinct inward-curving points on the boundary.
+
 Symmetry: Symmetry of the nucleus.
+
 Fractal Dimension: Measure of complexity in the boundary shape, approximated by coastline length minus one.
 For each of these features, three variations are provided:
 
 Mean: Average value of the feature.
+
 Standard Error (SE): Measure of variation or deviation for the feature.
+
 Worst: The largest or most severe value (computed as the mean of the three largest values).
+
 This results in a total of 30 features for each sample.
 
 Class Labels
